@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "routes": [
-    { "src": "/dashboard", "dest": "/public/dashboardHotmart.html" }
+  "rewrites": [
+    { "source": "/dashboard", "destination": "/public/dashboardHotmart.html" }
   ],
   "headers": [
     {

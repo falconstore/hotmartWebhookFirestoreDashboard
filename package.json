@@ -1,0 +1,13 @@
+{
+  "name": "hotmartWebhookFirestoreDashboard",
+  "private": true,
+  "type": "commonjs",
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "firebase-admin": "^12.5.0"
+  },
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}

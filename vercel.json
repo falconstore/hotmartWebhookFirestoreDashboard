@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/dashboard", "dest": "/public/dashboardHotmart.html" }
+  ],
+  "headers": [
+    {
+      "source": "/api/hotmartWebhook",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    }
+  ]
+}

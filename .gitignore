@@ -1,0 +1,10 @@
+# Node / Vercel
+node_modules
+.vercel
+.env
+.env.*
+# Mac/OS
+.DS_Store
+
+# Nunca commitar chaves
+serviceAccount.json
